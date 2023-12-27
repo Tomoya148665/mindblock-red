@@ -1,0 +1,314 @@
+.background {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/tablet-image@3x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height:100vh;
+    position:relative;
+  }
+
+ 
+ 
+.background2 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/second-page.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .background3 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/description-page.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .background4 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/final-page.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+
+
+
+.mindText {
+    position: relative;
+    font-size: 180px; /* デフォルトのフォントサイズ */
+    /* その他のスタイル... */
+  }
+  
+  /* 画面幅が600px以下の場合に適用されるスタイル */
+  @media (max-width: 600px) {
+    .mindText {
+      font-size: 130px;
+    }
+  }
+  
+  /* 画面幅が600pxより大きい場合に適用されるスタイル */
+  @media (min-width: 601px) {
+    .mindText {
+      font-size: 180px;
+    }
+  }
+
+
+.fullHeightContainer {
+    display: flex;
+    flex-direction: column;    
+    width:auto;
+  }
+  
+.footerText {
+    position: absolute; /* 絶対位置指定を追加 */
+    bottom: 0; /* 下端に配置 */
+    left: 0; /* 左端に配置 */
+    right: 0; /* 右端に配置 */
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    padding-bottom: 30px; /* 下端からのスペース */
+  }
+  
+.container{
+  width:80%;
+  margin:auto;
+  border:solid purple 10px;
+}
+
+.container img{
+  width: 100%;
+}
+
+
+.verticalText {
+  writing-mode: vertical-rl; /* Sets text to vertical */
+  text-orientation: upright; /* Keeps characters upright, not sideways */
+} 
+
+.left20 {
+  left: 2%;
+}
+
+.top30 {
+  top: 36%;
+}
+
+
+
+.relativeFontSize {
+  font-size: 2.6vw;
+}
+
+.relativeFontSize1 {
+  font-size: 3.8vw;
+}
+
+.relativeFontSize3 {
+  font-size: 2.3vw;
+}
+.relativeFontSize4 {
+  font-size: max(min(2.5vw, 18px), 16px);
+}
+
+.relativeFontSize5 {
+  font-size: max(min(2.5vw, 18px), 13px);
+}
+
+.maxWidthVw {
+  max-width: 24vw;
+}
+
+.maxWidthVw2 {
+  max-width: 33vw;
+} 
+
+.leadingVw {
+  line-height: 3.3vw;
+}
+
+.leadingVw2 {
+  line-height: 4.5vw;
+}
+
+.gapVw {
+  gap: 5vw;
+}
+
+@media (min-width: 1025px) {
+  .top30 {
+    top: 37vh;
+  }
+
+  .relativeFontSize {
+    font-size: 2vh; /* Replace with your desired fixed value */
+  }
+
+  .relativeFontSize1 {
+    font-size: 2.5vh; /* Replace with your desired fixed value */
+  }
+
+  .relativeFontSize3 {
+    font-size: 1.7vh; /* Replace with your desired fixed value */
+  }
+  
+  .gapVw {
+    gap: 4vh;
+  }
+
+  .maxWidthVw {
+    max-width: 17vh;
+  }
+  
+  .maxWidthVw2 {
+    max-width: 20vh;
+  } 
+
+  .leadingVw {
+    line-height: 3vh;
+  }
+  
+  .leadingVw2 {
+    line-height: 4vh;
+  }
+}
+
+
+.padding{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 6vw;
+}
+
+@media (min-width: 1025px){ 
+  .padding{
+    padding-top: 10vh;
+  }
+}
+
+
+.maxwidth{
+max-width:max(85vw, 400px);
+}
+
+@media (min-width: 1025px){ 
+  .maxwidth{
+    max-width:60vw;
+  }
+}
+
+.fontsize{
+  font-size:max(2.2vw, 13px);
+    line-height: 3.8vw;
+  
+  
+}
+
+
+@media (min-width: 1025px){ 
+  .fontsize{
+    font-size:1.3vw;
+    line-height:3vh
+
+  }
+}
+
+.fontsize2{
+  font-size:max(4vw, 20px)
+}
+
+@media (min-width: 1025px){ 
+  .fontsize2{
+    font-size:2.3vw
+  }
+}
+
+.gap{
+  gap:8vw
+}
+
+@media (min-width: 1025px){ 
+  .gap{
+    gap:3vh
+  }
+}
+
+.gap2{
+  gap:1vw
+}
+
+@media (min-width: 1025px){ 
+  .gap2{
+    gap:0vh
+  }
+}
+
+
+.fontsize3{
+  font-size:max(2.2vw, 13px);
+    line-height: 3.8vw;
+  
+}
+
+@media (min-width: 1025px){ 
+  .fontsize3{
+    font-size:1.3vw;
+    line-height:3vh
+  }
+}
+
+
+.padding2{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 6vw;
+}
+
+@media (min-width: 1025px){ 
+  .padding2{
+    padding-top: 4vh;
+  }
+}
+
+.fontsize4{
+  font-size:max(2.5vw, 13px)
+}
+
+
+@media (min-width: 1025px){ 
+  .fontsize4{
+    font-size:1.7vw
+  }
+}
+
+.padding3{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 6vw;
+}
+
+@media (min-width: 1025px){ 
+  .padding3{
+    padding-top: 4vh;
+  }
+}
+
+
+.lineheight{
+  line-height: 3.3vw;
+}
+
+.imageSize {
+  width: 500vw;
+  height: 40vw;
+}

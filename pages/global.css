@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Pistilli Pro";
+  src: url("/public/PistilliPro-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Hiragino Kaku Gothic StdN";
+  src: url("../public/HiraginoKaku-StdN-W4.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro Bold";
+  src: url("../public/A-OTF-RyuminPro-Bold.otf");
+  font-weight: 400;
+}@font-face {
+  font-family: "RyuminPro ExBold";
+  src: url("../public/A-OTF-RyuminPro-ExBold.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro ExHeavy";
+  src: url("../public/A-OTF-RyuminPro-ExHeavy.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro Heavy";
+  src: url("../public/A-OTF-RyuminPro-Heavy.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro Light";
+  src: url("../public/A-OTF-RyuminPro-Light.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro Medium";
+  src: url("../public/A-OTF-RyuminPro-Medium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "RyuminPro Regular";
+  src: url("../public/A-OTF-RyuminPro-Regular.otf");
+  font-weight: 400;
+}
+@font-face{
+  font-family: "RyuminPro Ultra";
+  src: url("../public/A-OTF-RyuminPro-Ultra.otf");
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
