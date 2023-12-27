@@ -25,7 +25,7 @@ const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
         <div>
           <div className="flex justify-center ">
             <div
-              className={`font-ryumin-medium self-stretch ${styles.maxwidth} relative text-white ${styles.fontsize3}`}
+              className={`font-ryumin-medium self-stretch ${styles.maxwidth} relative text-white ${styles.fontsize}`}
             >
               {description}{" "}
             </div>
