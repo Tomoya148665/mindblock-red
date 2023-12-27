@@ -277,6 +277,18 @@ max-width:max(85vw, 400px);
   }
 }
 
+.fontsize6{
+  font-size:max(2.2vw, 14px);
+    line-height: 5vw;
+  
+}
+
+@media (min-width: 1025px){ 
+  .fontsize6{
+    font-size:1.3vw;
+    line-height:3vh
+  }
+}
 
 .padding2{
   padding-left: 5vw;
@@ -320,5 +332,5 @@ max-width:max(85vw, 400px);
 
 .imageSize {
   width: 500vw;
-  height: 40vw;
+  height: 60vw;
 }

@@ -25,7 +25,7 @@ const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
         <div>
           <div className="flex justify-center ">
             <div
-              className={`font-ryumin-medium self-stretch ${styles.maxwidth} relative text-white ${styles.fontsize}`}
+              className={`font-ryumin-medium self-stretch ${styles.maxwidth} relative text-white ${styles.fontsize6}`}
             >
               {description}{" "}
             </div>
@@ -35,7 +35,7 @@ const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
       <div
         className={`relative ${styles.imageSize} object-cover`}
         style={{
-          backgroundImage: "url('/girl.png')",
+          backgroundImage: "url('/girl2.png')",
           backgroundPosition: "top",
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",
