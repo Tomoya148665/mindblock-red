@@ -21,7 +21,7 @@ const Secondpage: React.FC<SecondpageProps> = ({ description, name }) => {
           </div>
           <div className="bg-white flex items-center justify-center space-x-10 inline-flex">
             <div
-              className={`text-[#B34433] ${styles.fontsize2} font-ryumin-ultra font-black break-words`}
+              className={`text-[#B34433] ${styles.fontsize5} font-ryumin-ultra font-black break-words`}
             >
               「自分がやり切ればうまくいく」
             </div>

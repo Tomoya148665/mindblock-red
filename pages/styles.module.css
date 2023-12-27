@@ -233,6 +233,16 @@ max-width:max(85vw, 400px);
   }
 }
 
+.fontsize5{
+  font-size:max(4vw, 20px)
+}
+
+@media (min-width: 1025px){ 
+  .fontsize5{
+    font-size:2vw
+  }
+}
+
 .gap{
   gap:8vw
 }
